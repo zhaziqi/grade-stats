@@ -2,6 +2,20 @@
 
 一个用 Python 写的小工具：输入一批学生的各科成绩，自动算出总分、平均分、排名和等级分布。
 
+## 仓库结构
+
+```
+grade-stats/
+├── grade_stats.py     Python 成绩统计（字典/列表/元组/for/函数）
+├── make_chart.py      画图脚本（复用上面的数据与函数）
+├── chart.png          生成的图表
+├── c-language/        C 语言练习 14 题（程序设计基础课程作业）
+└── README.md
+```
+
+- **Python 部分**：一个完整的小工具，从数据到统计到可视化。
+- **C 语言部分**：见 [`c-language/`](c-language/README.md)，14 道课堂练习，全部通过 `gcc -std=c11 -Wall` 编译。
+
 ## 怎么运行
 
 ```bash
