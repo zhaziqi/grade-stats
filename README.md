@@ -34,6 +34,18 @@ python grade_stats.py
   ...
 ```
 
+## 可视化结果
+
+![成绩统计图表](chart.png)
+
+图表用 `make_chart.py` 生成（需要 matplotlib）：
+
+```bash
+python make_chart.py
+```
+
+它**复用 `grade_stats.py` 里的 `SCORES` 数据和统计函数**，不重复写一遍逻辑——这是模块化的意义：数据只有一份来源。
+
 ## 用到的知识
 
 | 知识点 | 用在哪 |
